@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>Lista de Nomes</h2>
+    <div class="nomes-container">
+      <div *ngFor="let nome of nomes">
+        <button (click)="abrirPopup(nome)">{{nome}}</button>
+      </div>
+    </div>
+  </div>
+  
